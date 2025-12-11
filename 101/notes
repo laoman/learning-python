@@ -1,0 +1,11 @@
+build the docker image and tag with tag python101
+==============================================
+docker build . -t /python/101
+
+list images locally
+=====================
+docker image ls
+
+start docker container
+=============================
+docker run -p 80:8000 python101
